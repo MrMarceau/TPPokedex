@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import PokedexHome from './PokedexHome/pokedex_home';
 import * as serviceWorker from './serviceWorker';
-import PokemonDetail from './PokemonDetail/pokemon_detail';
+
 ReactDOM.render(<PokedexHome />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
